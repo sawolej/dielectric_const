@@ -75,38 +75,113 @@ FILES = [
     # r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/106Test/2001 pkt/test106_probe_powietrze.s1p",
     # r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/106Test/2001 pkt/test106_probe_woda.s1p",
     #N
-    r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/26.05 (pomiary na n)/n_hips-S11-VF.s1p",
-    r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/26.05 (pomiary na n)/n_poli-S11-VF.s1p",
-    r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/26.05 (pomiary na n)/n_powietrze-S11-VF.s1p",
-    r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/26.05 (pomiary na n)/n_woda-S11-VF.s1p",
-    r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/26.05 (pomiary na n)/BioCreate/n_biocreate100-S11-VF.s1p",
-    r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/26.05 (pomiary na n)/BioCreate/n_biocreate25-S11-VF.s1p",
-    r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/26.05 (pomiary na n)/BioCreate/n_biocreate50-S11-VF.s1p",
-    r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/26.05 (pomiary na n)/Copper/n_copper100-S11-VF.s1p",
-    r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/26.05 (pomiary na n)/Copper/n_copper25-S11-VF.s1p",
-    r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/26.05 (pomiary na n)/Copper/n_copper75-S11-VF.s1p",
-    r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/26.05 (pomiary na n)/HS PLA/n_hspla100-S11-VF.s1p",
-    r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/26.05 (pomiary na n)/HS PLA/n_hspla25-S11-VF.s1p",
-    r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/26.05 (pomiary na n)/HS PLA/n_hspla50-S11-VF.s1p",
-    r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/26.05 (pomiary na n)/HS PLA/n_hspla75-S11-VF.s1p",
-    ##### r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/26.05 (pomiary na n)/Iron/n_iron100-S11-VF.s1p",
-    r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/26.05 (pomiary na n)/Iron/n_iron25-S11-VF.s1p",
-    r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/26.05 (pomiary na n)/Iron/n_iron75-S11-VF.s1p",
-    r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/26.05 (pomiary na n)/PLA/n_pla100-S11-VF.s1p",
-    r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/26.05 (pomiary na n)/PLA/n_pla25-S11-VF.s1p",
-    r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/26.05 (pomiary na n)/PLA/n_pla50-S11-VF.s1p",
-    r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/26.05 (pomiary na n)/PLA/n_pla75-S11-VF.s1p",
-    r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/26.05 (pomiary na n)/PLA+aloes/n_pla25+aloes-S11-VF.s1p",
-    r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/26.05 (pomiary na n)/PLA+aloes/n_pla50+aloes-S11-VF.s1p",
-    r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/26.05 (pomiary na n)/PLA+aloes/n_pla75+aloes-S11-VF.s1p",
-    r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/26.05 (pomiary na n)/PLA+myskinbooster/n_pla25+myskinbooster-S11-VF.s1p"
+    # r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/26.05 (pomiary na n)/n_hips-S11-VF.s1p",
+    # # r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/26.05 (pomiary na n)/n_poli-S11-VF.s1p",
+    # r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/26.05 (pomiary na n)/n_powietrze-S11-VF.s1p",
+    # r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/26.05 (pomiary na n)/n_woda-S11-VF.s1p",
+    # # r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/26.05 (pomiary na n)/n_wod.s1p",
+
+    # # r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/26.05 (pomiary na n)/BioCreate/n_biocreate100-S11-VF.s1p",
+    # # r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/26.05 (pomiary na n)/BioCreate/n_biocreate25-S11-VF.s1p",
+    # # r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/26.05 (pomiary na n)/BioCreate/n_biocreate50-S11-VF.s1p",
+    # r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/26.05 (pomiary na n)/Copper/n_copper100-S11-VF.s1p",
+    # r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/26.05 (pomiary na n)/Copper/n_copper25-S11-VF.s1p",
+    # r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/26.05 (pomiary na n)/Copper/n_copper75-S11-VF.s1p",
+    # # r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/26.05 (pomiary na n)/HS PLA/n_hspla100-S11-VF.s1p",
+    # r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/26.05 (pomiary na n)/HS PLA/n_hspla25-S11-VF.s1p",
+    # r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/26.05 (pomiary na n)/HS PLA/n_hspla50-S11-VF.s1p",
+    # r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/26.05 (pomiary na n)/HS PLA/n_hspla75-S11-VF.s1p",
+    # ##### r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/26.05 (pomiary na n)/Iron/n_iron100-S11-VF.s1p",
+    # r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/26.05 (pomiary na n)/Iron/n_iron25-S11-VF.s1p",
+    # r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/26.05 (pomiary na n)/Iron/n_iron75-S11-VF.s1p",
+    # r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/26.05 (pomiary na n)/PLA/n_pla100-S11-VF.s1p",
+    # r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/26.05 (pomiary na n)/PLA/n_pla25-S11-VF.s1p",
+    # r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/26.05 (pomiary na n)/PLA/n_pla50-S11-VF.s1p",
+    # r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/26.05 (pomiary na n)/PLA/n_pla75-S11-VF.s1p",
+    # r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/26.05 (pomiary na n)/PLA+aloes/n_pla25+aloes-S11-VF.s1p",
+    # r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/26.05 (pomiary na n)/PLA+aloes/n_pla50+aloes-S11-VF.s1p",
+    # r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/26.05 (pomiary na n)/PLA+aloes/n_pla75+aloes-S11-VF.s1p",
+    # r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/26.05 (pomiary na n)/PLA+myskinbooster/n_pla25+myskinbooster-S11-VF.s1p",
+
+    r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/27.05 (n)/pla25_hips-S11-VF.s1p",
+    r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/27.05 (n)/pla25_poli-S11-VF.s1p",
+    # r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/27.05 (n)/pla25_powietrze-S11-VF.s1p",
+    r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/27.05 (n)/pla25_woda-S11-VF.s1p",
+    # r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/27.05 (n)/pla15+woda/pla15_woda-S11-VF.s1p",
+    # r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/27.05 (n)/pla15+woda/pla15_woda2-S11-VF.s1p",
+    # r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/27.05 (n)/pla15+woda/pla15_woda3-S11-VF.s1p",
+    # r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/27.05 (n)/pla15+woda/pla15_woda4-S11-VF.s1p",
+    # r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/27.05 (n)/pla15+woda/pla15_woda5-S11-VF.s1p",
+    # r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/27.05 (n)/pla25+aloes/pla25_aloes1-S11-VF.s1p",
+    # r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/27.05 (n)/pla25+aloes/pla25_aloes10-S11-VF.s1p",
+    # r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/27.05 (n)/pla25+aloes/pla25_aloes2-S11-VF.s1p",
+    # r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/27.05 (n)/pla25+aloes/pla25_aloes3-S11-VF.s1p",
+    # r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/27.05 (n)/pla25+aloes/pla25_aloes4-S11-VF.s1p",
+    # r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/27.05 (n)/pla25+aloes/pla25_aloes5-S11-VF.s1p",
+    # r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/27.05 (n)/pla25+aloes/pla25_aloes6-S11-VF.s1p",
+    # r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/27.05 (n)/pla25+aloes/pla25_aloes7-S11-VF.s1p",
+    # r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/27.05 (n)/pla25+aloes/pla25_aloes8-S11-VF.s1p",
+    # r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/27.05 (n)/pla25+aloes/pla25_aloes9-S11-VF.s1p",
+
+    # r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/27.05 (n)/oplatek/pla25_aloes_oplatek-S11-VF.s1p",
+    # r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/27.05 (n)/oplatek/pla25_aloes_oplatek2-S11-VF.s1p",
+    # r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/27.05 (n)/oplatek/pla25_aloes_oplatek3-S11-VF.s1p",
+
+    # r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/28.05/stala/powietrze-S11-VF.s1p",
+    # r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/28.05/stala/pp1gnp10-S11-VF.s1p",
+    # r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/28.05/stala/pp1gnp10_2-S11-VF.s1p",
+    # r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/28.05/stala/pp2gnp10-S11-VF.s1p",
+    # r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/28.05/stala/pp2gnp10_2-S11-VF.s1p",
+    # r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/28.05/stala/pur12-S11-VF.s1p",
+    # r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/28.05/stala/pur12_2-S11-VF.s1p",
+    # r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/28.05/stala/refpp1-S11-VF.s1p",
+    # r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/28.05/stala/refpp2-S11-VF.s1p",
+    # r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/28.05/stala/uhwmpe_gnp2-S11-VF.s1p",
+    # r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/28.05/stala/woda-S11-VF.s1p",
+
+    # r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/29.05/copper100-S11-VF.s1p",
+    # r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/29.05/copper100_napewno-S11-VF.s1p",
+    # r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/29.05/copper75_1-S11-VF.s1p",
+    # r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/29.05/copper75_napewno-S11-VF.s1p",
+    # r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/29.05/ECG-S11-VF.s1p",
+    # r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/29.05/iron100-S11-VF.s1p",
+    # r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/29.05/powietrze-S11-VF.s1p",
+    # r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/29.05/sigma_gel1-S11-VF.s1p",
+    # r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/29.05/sigma_gel2-S11-VF.s1p",
+    # r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/29.05/spirol-S11-VF.s1p",
+    # r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/29.05/USG-S11-VF.s1p",
+    # r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/29.05/woda-destylowana-S11-VF.s1p",
+    # r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/29.05/woda-kranowa-S11-VF.s1p",
+
+    r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/próbki rosa/ASA_ESD_202510-S11-VF.s1p",
+    r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/próbki rosa/ASA_ESD_202520-S11-VF.s1p",
+    r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/próbki rosa/ASA_ESD_202530-S11-VF.s1p",
+    r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/próbki rosa/ASA_ESD_203040-S11-VF.s1p",
+    r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/próbki rosa/ASA_ESD_203050-S11-VF.s1p",
+    r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/próbki rosa/ASA_ESD_203060-S11-VF.s1p",
+    r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/próbki rosa/PETg_ESD_100000-S11-VF.s1p",
+    r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/próbki rosa/PETg_ESD_100001-S11-VF.s1p",
+    r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/próbki rosa/PETg_ESD_100002-S11-VF.s1p",
+    r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/próbki rosa/PETg_ESD_102510-S11-VF.s1p",
+    r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/próbki rosa/PETg_ESD_102520-S11-VF.s1p",
+    r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/próbki rosa/PETg_ESD_102530-S11-VF.s1p",
+    r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/próbki rosa/PETg_ESD_103040-S11-VF.s1p",
+    r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/próbki rosa/PETg_ESD_103050-S11-VF.s1p",
+    r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/próbki rosa/PETg_ESD_103060-S11-VF.s1p",
+    r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/próbki rosa/PETg_ESD_104070-S11-VF.s1p",
+    r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/próbki rosa/PETg_ESD_104080-S11-VF.s1p",
+    r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/próbki rosa/PETg_ESD_104090-S11-VF.s1p",
+    r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/próbki rosa/PLA_ESD_300510-S11-VF.s1p",
+    r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/próbki rosa/PLA_ESD_300530-S11-VF.s1p",
+    r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/próbki rosa/PLA_ESD_500520-S11-VF.s1p",
+    r"C:/Users/kamil/Documents/timeGating/pomiaryxd69xd/próbki rosa/powietrze-S11-VF.s1p",
     
     ]
 
 TEMPERATURE_C         = 25.0
 # **dokładnie taki gating jak w Twoim przykładzie:**
 GATE_CENTER_NS        = 5.2    # środek okna w [ns]
-GATE_SPAN_NS          = 0.2    # bardzo wąskie okno!
+GATE_SPAN_NS          = 1    # bardzo wąskie okno!
 Z0                    = 50.0
 CABLE_LENGTH_M        = 0.5363
 SIGNAL_DELAY_NS_PER_M = 4.86
@@ -203,7 +278,7 @@ for tg in TARGET_GHZ:
 # 2) PRÓBKI
 # ---------------------------------------------------------------------
 spectra_zin, spectra_eps, eps_results = {}, {}, []
-eps_results_imag = []
+
 for p in FILES:
     name = Path(p).stem
     if "powietrze" in name.lower() or "woda" in name.lower():
@@ -232,7 +307,7 @@ for p in FILES:
     eps_samp = (Y_samp/(1j*w) - Cp)/C0
     spectra_eps[name] = (s11g.f/1e9, eps_samp.real)
 
-
+    eps_results_imag = []
 
     # wyniki pod TARGET_GHZ
     for tg in TARGET_GHZ:
@@ -310,16 +385,33 @@ pt = df.pivot_table(index="sample",
 print("\nTabela ε' + odchylenie (całe widmo i wybrane):")
 print(pt)
 
+# ---------------------------------------------------------------------
+# 2c) STATYSTYKA dla każdej próbki
+#    • mean ε′   (uśrednione w paśmie 0.8-3 GHz)
+#    • mean |Zin|
+#    • std ε′
+# ---------------------------------------------------------------------
+stats = []
+LOW, HIGH = 0.8, 3.0      # pasmo do uśredniania [GHz]
 
-# ——————————————————————————————————————————————
-# 3b) Tabela części urojonej
-# ——————————————————————————————————————————————
-# Po pivotowaniu realnej ε′, zrób to samo dla listy eps_results_imag:
-df_imag = pd.DataFrame(eps_results_imag)
-pt_imag = df_imag.pivot_table(
-    index="sample",
-    columns="freq_GHz",
-    values="epsilon_imag"
+for name, (f_vec, eps_real) in spectra_eps.items():
+    zin_vec = spectra_zin[name][1]
+
+    mask = (f_vec >= LOW) & (f_vec <= HIGH)
+    stats.append({
+        "sample"      : name,
+        "mean_eps"    : eps_real[mask].mean(),
+        "std_eps"     : eps_real[mask].std(ddof=1),   # odchylenie standardowe
+        "mean_Zin_Ω"  : zin_vec[mask].mean()
+    })
+
+stats_df = (
+    pd.DataFrame(stats)
+      .set_index("sample")
+      .round(3)              # zaokrąglij dla czytelności
+      .sort_index()          # kolejność alfabetyczna
 )
-print("\nTabela Im(ε) dla wybranych f (urojona część permittivity):")
-print(pt_imag)
+
+print("\nStatystyka 0.8–3 GHz:")
+print(stats_df)
+stats_df.to_csv(outdir / "stats_summary.csv")
